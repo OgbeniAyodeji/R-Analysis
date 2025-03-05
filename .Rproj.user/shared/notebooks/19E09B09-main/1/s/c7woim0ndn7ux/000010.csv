@@ -1,0 +1,20 @@
+"1","
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyBTYXZlIHJlc3VsdHNcbnNhdmVfcHJvY2Vzc2VkX2RhdGEoZGF0YVxuICAgICAgICAgICAgICAgICAgICAjIFwic2VnbWVudGVkX2N1c3RvbWVycy5jc3ZcIlxuICAgICAgICAgICAgICAgICAgICApXG5gYGAifQ== -->
+
+```r
+# Save results
+save_processed_data(data
+                    # \"segmented_customers.csv\"
+                    )
+```
+
+<!-- rnb-source-end -->
+"
+"0","```r
+# Save results
+save_processed_data(data
+                    # \"segmented_customers.csv\"
+                    )
+```"
+"1","Error in eval(expr, p) : argument \"file_path\" is missing, with no default
+"

@@ -1,0 +1,3 @@
+"0",""
+"0","# Visualize clusters"
+"0","visualize_clusters(data, kmeans_result$cluster)"

@@ -1,0 +1,27 @@
+{
+    "id": "E2EBAA8E",
+    "path": "C:/Users/Ogben/Desktop/portfolio/R Analysis/R Analysis/scripts/main.Rmd",
+    "project_path": "scripts/main.Rmd",
+    "type": "r_markdown",
+    "hash": "0",
+    "contents": "",
+    "dirty": true,
+    "created": 1741169289710.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "chunk_output_type": "inline",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "19,43",
+        "scrollLine": "14"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1741112606,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1741172375321,
+    "read_only": false,
+    "read_only_alternatives": []
+}

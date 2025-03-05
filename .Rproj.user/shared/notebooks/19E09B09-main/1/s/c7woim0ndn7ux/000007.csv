@@ -1,0 +1,35 @@
+"1","
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuXG4jIFBlcmZvcm0gY2x1c3RlcmluZ1xua21lYW5zX3Jlc3VsdCA8LSBwZXJmb3JtX2ttZWFucyhkYXRhLCBrID0gNClcblxuIyBTdW1tYXJpemUgY2x1c3RlcnNcbnN1bW1hcnkgPC0gc3VtbWFyaXplX2NsdXN0ZXJzKGRhdGEsIGttZWFuc19yZXN1bHQkY2x1c3RlcilcbnByaW50KHN1bW1hcnkpXG5gYGAifQ== -->
+
+```r
+
+# Perform clustering
+kmeans_result <- perform_kmeans(data, k = 4)
+
+# Summarize clusters
+summary <- summarize_clusters(data, kmeans_result$cluster)
+print(summary)
+```
+
+<!-- rnb-source-end -->
+"
+"0","```r
+
+# Perform clustering
+kmeans_result <- perform_kmeans(data, k = 4)
+
+# Summarize clusters
+summary <- summarize_clusters(data, kmeans_result$cluster)
+print(summary)
+```"
+"1","
+<!-- rnb-frame-begin eyJtZXRhZGF0YSI6eyJjbGFzc2VzIjpbInRibF9kZiIsInRibCIsImRhdGEuZnJhbWUiXSwibnJvdyI6NCwibmNvbCI6Nywic3VtbWFyeSI6eyJBIHRpYmJsZSI6WyI0IMOXIDciXX19LCJyZGYiOiJINHNJQUFBQUFBQUFCZ3R5aVREbWl1QmlZR0JnWm1CaFlXWmdaZ1V5R1ZoRFE5eDBMUmdZV0ppQUhFWUdGZ1pPRUYwQlZDUU1aTEFETVM4UXM0QWxHUmlZd0xvaGZENFFiZitnVWEvUzk3ZWIvZjJNdzVGTU1aL3RIMVRPVzZLK1dkNytidGxIamxVcU5uQjE5KzY1Zms4MXM3ZS9kNHhYMGVlRW12M2REeGVlN3Y2OXlmNWV6Si9aRVZJR0NIVk1yVWZkVDgyenYvTmxRenlUVnBYOW5abVZ0cWFwTit6dnJxd3F2YjNISG1HdkFtdXM3cFFxKzNzbjFNeUw0b0xzNzYxbVVlQ3Y2TEcvVjNSdTlxN0tGSVE2MTU2VUtqTlIrL3NDMDg4MmJWS3lmNkJ4Nmh2VElYMzdCNHV2YzlrV0xFSHkzeTlVakJJZ3JIbUp1YW5GUUlZQU9GQWdndXpPT2FYRkphbEZVQzZiWTFtNlkzb3FsTWNKNUhubUplZm53Z1E0Z0FMQkJhbDVLVkErRjRpZldKYVpsMTRNRmVFSktVck1LMDVNTHNuTXo0T0pzVHJubCthVm9MbUdzeWkvWEEvbUlwRHptUnFBeFAvLy8vK2dPenM1SjdFWTVteVlJRmRLWWttaVhsb1JVRCtROXc5TkMzdCtBY1IrQmlaUUFtQkQwOHhZaENiQVg1b0hja21LYm5KR2FWNjJyam1hTkhOQlhqcklUbWo2WVlBNm1CRWE1akEyTzhRVlRQK2gydGxnWVpxYWw1NlpCd3RDMXB6RXBOUWNtTWtwcVdWUUpoOHdQTURCb1ZkUWxBa01MYWcvZ2FMRmVpWDVKWWt3TFZ6SitUa3dFYkRQR2Y0QkFQUzFmWGtWQXdBQSJ9 -->
+
+<div data-pagedtable=\"false\">
+  <script data-pagedtable-source type=\"application/json\">
+{\"columns\":[{\"label\":[\"Cluster\"],\"name\":[1],\"type\":[\"int\"],\"align\":[\"right\"]},{\"label\":[\"AvgAge\"],\"name\":[2],\"type\":[\"dbl\"],\"align\":[\"right\"]},{\"label\":[\"AvgIncome\"],\"name\":[3],\"type\":[\"dbl\"],\"align\":[\"right\"]},{\"label\":[\"AvgSpend\"],\"name\":[4],\"type\":[\"dbl\"],\"align\":[\"right\"]},{\"label\":[\"AvgSavings\"],\"name\":[5],\"type\":[\"dbl\"],\"align\":[\"right\"]},{\"label\":[\"Transactions\"],\"name\":[6],\"type\":[\"dbl\"],\"align\":[\"right\"]},{\"label\":[\"Count\"],\"name\":[7],\"type\":[\"int\"],\"align\":[\"right\"]}],\"data\":[{\"1\":\"1\",\"2\":\"0.5157692\",\"3\":\"0.4823165\",\"4\":\"0.4689040\",\"5\":\"0.5039088\",\"6\":\"0.5084898\",\"7\":\"250\"},{\"1\":\"2\",\"2\":\"0.4907692\",\"3\":\"0.4808381\",\"4\":\"0.4524346\",\"5\":\"0.4809661\",\"6\":\"0.4853878\",\"7\":\"250\"},{\"1\":\"3\",\"2\":\"0.5148462\",\"3\":\"0.4678232\",\"4\":\"0.4468673\",\"5\":\"0.4791880\",\"6\":\"0.5049796\",\"7\":\"250\"},{\"1\":\"4\",\"2\":\"0.4603846\",\"3\":\"0.4744255\",\"4\":\"0.4634691\",\"5\":\"0.4757573\",\"6\":\"0.5200000\",\"7\":\"250\"}],\"options\":{\"columns\":{\"min\":{},\"max\":[10],\"total\":[7]},\"rows\":{\"min\":[10],\"max\":[10],\"total\":[4]},\"pages\":{}}}
+  </script>
+</div>
+
+<!-- rnb-frame-end -->
+"
